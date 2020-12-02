@@ -19,6 +19,7 @@
 		B35DA8C92566B28100AE0DF7 /* SearchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35DA8C82566B28100AE0DF7 /* SearchPage.swift */; };
 		B35DA8CE2566B2BB00AE0DF7 /* AppsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35DA8CD2566B2BB00AE0DF7 /* AppsPage.swift */; };
 		B35DA8D32566B2E000AE0DF7 /* TabBarPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35DA8D22566B2E000AE0DF7 /* TabBarPage.swift */; };
+		B379A53125779FAF0072C562 /* FeaturedPostPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B379A53025779FAF0072C562 /* FeaturedPostPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		B35DA8C82566B28100AE0DF7 /* SearchPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPage.swift; sourceTree = "<group>"; };
 		B35DA8CD2566B2BB00AE0DF7 /* AppsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsPage.swift; sourceTree = "<group>"; };
 		B35DA8D22566B2E000AE0DF7 /* TabBarPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPage.swift; sourceTree = "<group>"; };
+		B379A53025779FAF0072C562 /* FeaturedPostPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPostPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				B35DA8B92566B24900AE0DF7 /* TodayPage.swift */,
 				B35DA8BE2566B26100AE0DF7 /* ArcadePage.swift */,
 				B35DA8C32566B27000AE0DF7 /* GamesPage.swift */,
+				B379A53025779FAF0072C562 /* FeaturedPostPage.swift */,
 				B35DA8CD2566B2BB00AE0DF7 /* AppsPage.swift */,
 				B35DA8D22566B2E000AE0DF7 /* TabBarPage.swift */,
 				B35DA8C82566B28100AE0DF7 /* SearchPage.swift */,
@@ -284,6 +287,7 @@
 				B35DA8D32566B2E000AE0DF7 /* TabBarPage.swift in Sources */,
 				B35DA88C2566B1E100AE0DF7 /* AppStoreApp.swift in Sources */,
 				B35DA8CE2566B2BB00AE0DF7 /* AppsPage.swift in Sources */,
+				B379A53125779FAF0072C562 /* FeaturedPostPage.swift in Sources */,
 				B35DA8BA2566B24900AE0DF7 /* TodayPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

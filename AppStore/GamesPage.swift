@@ -22,7 +22,12 @@ struct GamesView: View {
                     })
                 }.padding([.leading, .trailing, .top])
                 ScrollView(.horizontal, showsIndicators: false, content: {
-                    /*@START_MENU_TOKEN@*/Text("Placeholder")/*@END_MENU_TOKEN@*/
+                    HStack{
+                    FeaturedPostView(captionText: "New Update", titleText: "The Sims Freeplay", subtitleText: "Bonjour from Paris", image: "original")
+                    FeaturedPostView(captionText: "New Update", titleText: "The Sims Freeplay", subtitleText: "Bonjour from Paris", image: "original")
+                        FeaturedPostView(captionText: "New Update", titleText: "The Sims Freeplay", subtitleText: "Bonjour from Paris", image: "original")
+                        FeaturedPostView(captionText: "New Update", titleText: "The Sims Freeplay", subtitleText: "Bonjour from Paris", image: "original")
+                    }
                 })
                 
             }
