@@ -13,6 +13,12 @@
 		B35DA8932566B1E400AE0DF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B35DA8922566B1E400AE0DF7 /* Preview Assets.xcassets */; };
 		B35DA89E2566B1E400AE0DF7 /* AppStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35DA89D2566B1E400AE0DF7 /* AppStoreTests.swift */; };
 		B35DA8A92566B1E400AE0DF7 /* AppStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35DA8A82566B1E400AE0DF7 /* AppStoreUITests.swift */; };
+		B35DA8BA2566B24900AE0DF7 /* TodayPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35DA8B92566B24900AE0DF7 /* TodayPage.swift */; };
+		B35DA8BF2566B26100AE0DF7 /* ArcadePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35DA8BE2566B26100AE0DF7 /* ArcadePage.swift */; };
+		B35DA8C42566B27000AE0DF7 /* GamesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35DA8C32566B27000AE0DF7 /* GamesPage.swift */; };
+		B35DA8C92566B28100AE0DF7 /* SearchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35DA8C82566B28100AE0DF7 /* SearchPage.swift */; };
+		B35DA8CE2566B2BB00AE0DF7 /* AppsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35DA8CD2566B2BB00AE0DF7 /* AppsPage.swift */; };
+		B35DA8D32566B2E000AE0DF7 /* TabBarPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35DA8D22566B2E000AE0DF7 /* TabBarPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		B35DA8A42566B1E400AE0DF7 /* AppStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B35DA8A82566B1E400AE0DF7 /* AppStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreUITests.swift; sourceTree = "<group>"; };
 		B35DA8AA2566B1E400AE0DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B35DA8B92566B24900AE0DF7 /* TodayPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayPage.swift; sourceTree = "<group>"; };
+		B35DA8BE2566B26100AE0DF7 /* ArcadePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadePage.swift; sourceTree = "<group>"; };
+		B35DA8C32566B27000AE0DF7 /* GamesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesPage.swift; sourceTree = "<group>"; };
+		B35DA8C82566B28100AE0DF7 /* SearchPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPage.swift; sourceTree = "<group>"; };
+		B35DA8CD2566B2BB00AE0DF7 /* AppsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsPage.swift; sourceTree = "<group>"; };
+		B35DA8D22566B2E000AE0DF7 /* TabBarPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,12 @@
 			children = (
 				B35DA88B2566B1E100AE0DF7 /* AppStoreApp.swift */,
 				B35DA88D2566B1E100AE0DF7 /* ContentView.swift */,
+				B35DA8B92566B24900AE0DF7 /* TodayPage.swift */,
+				B35DA8BE2566B26100AE0DF7 /* ArcadePage.swift */,
+				B35DA8C32566B27000AE0DF7 /* GamesPage.swift */,
+				B35DA8CD2566B2BB00AE0DF7 /* AppsPage.swift */,
+				B35DA8D22566B2E000AE0DF7 /* TabBarPage.swift */,
+				B35DA8C82566B28100AE0DF7 /* SearchPage.swift */,
 				B35DA88F2566B1E400AE0DF7 /* Assets.xcassets */,
 				B35DA8942566B1E400AE0DF7 /* Info.plist */,
 				B35DA8912566B1E400AE0DF7 /* Preview Content */,
@@ -259,8 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B35DA8BF2566B26100AE0DF7 /* ArcadePage.swift in Sources */,
+				B35DA8C42566B27000AE0DF7 /* GamesPage.swift in Sources */,
+				B35DA8C92566B28100AE0DF7 /* SearchPage.swift in Sources */,
 				B35DA88E2566B1E100AE0DF7 /* ContentView.swift in Sources */,
+				B35DA8D32566B2E000AE0DF7 /* TabBarPage.swift in Sources */,
 				B35DA88C2566B1E100AE0DF7 /* AppStoreApp.swift in Sources */,
+				B35DA8CE2566B2BB00AE0DF7 /* AppsPage.swift in Sources */,
+				B35DA8BA2566B24900AE0DF7 /* TodayPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
