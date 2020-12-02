@@ -29,13 +29,26 @@ struct GamesView: View {
                         FeaturedPostView(captionText: "New Update", titleText: "The Sims Freeplay", subtitleText: "Bonjour from Paris", image: "original")
                     }
                 })
-                
+                Divider()
+                HorizontalScrollView(items: GameStorage().thisWeeksGames)
             }
         }
     }
     func loadProfile(){
         
     }
+}
+
+struct GameStorage {
+    var thisWeeksGames = [GameData(id: UUID(), title: "Doodle Jump", image: "doodleJump", subtitle: "A platforming video game"), GameData(id: UUID(), title: "Doodle Jump", image: "doodleJump", subtitle: "A platforming video game"), GameData(id: UUID(), title: "Doodle Jump", image: "doodleJump", subtitle: "A platforming video game"), GameData(id: UUID(), title: "Doodle Jump", image: "doodleJump", subtitle: "A platforming video game"), GameData(id: UUID(), title: "Doodle Jump", image: "doodleJump", subtitle: "A platforming video game"), GameData(id: UUID(), title: "Doodle Jump", image: "doodleJump", subtitle: "A platforming video game")]
+}
+
+struct GameData: Identifiable{
+    var id = UUID()
+    var title = String()
+    var image = String()
+    var subtitle = String()
+    
 }
 
 
